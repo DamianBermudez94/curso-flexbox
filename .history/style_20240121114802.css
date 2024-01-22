@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.nav{
+    background-color: rgba(5, 47, 109, 0.5);
+}
+.nav-content{
+    width: 90%;
+    max-width:1200px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: #fff;
+
+}
+.nav__links:first-of-type{
+    margin-left: auto;
+}
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+}
